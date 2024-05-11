@@ -25,6 +25,11 @@ SIGNUP_REDIRECT_URL = "/rooms/"
 
 ALLOWED_HOSTS = ['django-chatapp-fyy5.onrender.com',]
 TRUSTED_HOSTS = ['django-chatapp-fyy5.onrender.com',]
+#Reason given for failure:
+
+    # Origin checking failed - https://django-chatapp-fyy5.onrender.com does not match any trusted origins.
+
+
 
 INSTALLED_APPS = [
     #setup daphne và channels
@@ -76,7 +81,8 @@ ASGI_APPLICATION = "chatapp.asgi.application"
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels.layers.InMemoryChannelLayer",
-    }
+    },
+    'allowed_origins': ['https://django-chatapp-fyy5.onrender.com']
 }
 
 DATABASES = {
