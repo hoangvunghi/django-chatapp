@@ -24,6 +24,7 @@ LOGIN_URL = "/login/"
 SIGNUP_REDIRECT_URL = "/rooms/"
 
 ALLOWED_HOSTS = ['django-chatapp-fyy5.onrender.com',]
+TRUSTED_HOSTS = ['django-chatapp-fyy5.onrender.com',]
 
 INSTALLED_APPS = [
     #setup daphne và channels
