@@ -94,7 +94,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     "https://django-chatapp-fyy5.onrender.com",
 ]
-CSRF_TRUSTED_ORIGINS=['django-chatapp-fyy5.onrender.com']
+CSRF_TRUSTED_ORIGINS=['https://django-chatapp-fyy5.onrender.com']
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
