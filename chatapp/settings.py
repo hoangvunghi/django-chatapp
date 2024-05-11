@@ -23,8 +23,8 @@ LOGIN_REDIRECT_URL = "/rooms/"
 LOGIN_URL = "/login/"
 SIGNUP_REDIRECT_URL = "/rooms/"
 
-ALLOWED_HOSTS = ['django-chatapp-fyy5.onrender.com',]
-TRUSTED_HOSTS = ['django-chatapp-fyy5.onrender.com',]
+ALLOWED_HOSTS = ['https://django-chatapp-fyy5.onrender.com',]
+TRUSTED_HOSTS = ['https://django-chatapp-fyy5.onrender.com',]
 #Reason given for failure:
 
     # Origin checking failed - https://django-chatapp-fyy5.onrender.com does not match any trusted origins.
